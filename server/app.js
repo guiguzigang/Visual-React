@@ -3,7 +3,7 @@ const fs = require('fs')
 const express = require('express')
 const app = express()
 const PORT = 8001
-const mock_path = `${__dirname}/mock`
+const mock_path = `${__dirname}/routes`
 const mock_data = []
 
 const walk = path => {
